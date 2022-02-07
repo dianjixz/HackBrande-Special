@@ -1,0 +1,69 @@
+
+(module SSOT6 (layer F.Cu) (tedit 61F69FA3)
+  (descr "<b>SuperSOT-6</b><p>Source:  Fairchild Semiconductor International ssot6_dim.pdf<br>  September 1998, Rev. A")
+  (fp_text reference REF** (at 5.175 -1.0 0) (layer F.SilkS)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (fp_text value SSOT6 (at 5.175 1.0 0) (layer F.Fab)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -0.95 1.3) (size 0.7 1.0) (layers F.Cu F.Mask F.Paste))
+  (pad 2 smd rect (at 0.0 1.3) (size 0.7 1.0) (layers F.Cu F.Mask F.Paste))
+  (pad 3 smd rect (at 0.95 1.3) (size 0.7 1.0) (layers F.Cu F.Mask F.Paste))
+  (pad 4 smd rect (at 0.95 -1.3 180.0) (size 0.7 1.0) (layers F.Cu F.Mask F.Paste))
+  (pad 5 smd rect (at 0.0 -1.3 180.0) (size 0.7 1.0) (layers F.Cu F.Mask F.Paste))
+  (pad 6 smd rect (at -0.95 -1.3 180.0) (size 0.7 1.0) (layers F.Cu F.Mask F.Paste))
+  (fp_line (start -1.5 -0.85) (end 1.5 -0.85) (layer F.Fab) (width 0.127))
+  (fp_line (start 1.5 -0.85) (end 1.5 0.85) (layer F.SilkS) (width 0.127))
+  (fp_line (start 1.5 0.85) (end -1.5 0.85) (layer F.Fab) (width 0.127))
+  (fp_line (start -1.5 0.85) (end -1.5 -0.85) (layer F.SilkS) (width 0.127))
+  (fp_circle (center -1.8 0.85) (end -1.6204 0.85) (layer F.SilkS) (width 0.0))
+  (fp_poly
+    (pts
+      (xy -1.2 0.85)
+      (xy -0.7 0.85)
+      (xy -0.7 1.5)
+      (xy -1.2 1.5)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.25 0.85)
+      (xy 0.25 0.85)
+      (xy 0.25 1.5)
+      (xy -0.25 1.5)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.7 0.85)
+      (xy 1.2 0.85)
+      (xy 1.2 1.5)
+      (xy 0.7 1.5)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.7 -1.5)
+      (xy 1.2 -1.5)
+      (xy 1.2 -0.85)
+      (xy 0.7 -0.85)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.25 -1.5)
+      (xy 0.25 -1.5)
+      (xy 0.25 -0.85)
+      (xy -0.25 -0.85)
+    ) (layer F.Fab) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -1.2 -1.5)
+      (xy -0.7 -1.5)
+      (xy -0.7 -0.85)
+      (xy -1.2 -0.85)
+    ) (layer F.Fab) (width 0.01)
+  )
+)
