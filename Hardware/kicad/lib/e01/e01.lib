@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# E01-ML01S
+#
+DEF E01-ML01S U 0 40 Y Y 1 F N
+F0 "U" 0 550 50 H V C CNN
+F1 "E01-ML01S" 0 750 50 H V C CNN
+F2 "kicad_lceda:WIRELM-SMD_E01-ML01S" 0 350 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_109765.html" 0 150 50 H I C CNN
+F4 "C108546" 0 -50 50 H I C CNN "SuppliersPartNumber"
+F5 "std:fbcb457c0b0c4ac8aa7dfc7219558241" 0 -50 50 H I C CNN "uuid"
+DRAW
+S -350 450 450 -450 1 1 6 N
+C -325 425 15 1 1 6 F
+X VCC 1 -450 350 100 R 50 50 1 1 I 
+X CE 2 -450 250 100 R 50 50 1 1 I 
+X CSN 3 -450 150 100 R 50 50 1 1 I 
+X SCK 4 -450 50 100 R 50 50 1 1 I 
+X MOSI 5 -450 -50 100 R 50 50 1 1 I 
+X MISO 6 -450 -150 100 R 50 50 1 1 I 
+X IRQ 7 -450 -250 100 R 50 50 1 1 I 
+X GND 8 -450 -350 100 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library
