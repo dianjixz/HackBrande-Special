@@ -2,4 +2,7 @@
   (lib (name "esp8266")(type "KiCad")(uri "${KIPRJMOD}/lib/esp8266/esp8266.kicad_sym")(options "")(descr ""))
   (lib (name "e01")(type "KiCad")(uri "${KIPRJMOD}/lib/e01/e01.kicad_sym")(options "")(descr ""))
   (lib (name "e07")(type "KiCad")(uri "${KIPRJMOD}/lib/e07/e07.kicad_sym")(options "")(descr ""))
+  (lib (name "TC4056A")(type "Legacy")(uri "${KIPRJMOD}/lib/TC4056A/kicad_lceda.lib")(options "")(descr ""))
+  (lib (name "SL2.1S")(type "Legacy")(uri "${KIPRJMOD}/lib/SL2.1S/kicad_lceda.lib")(options "")(descr ""))
+  (lib (name "CH595")(type "Legacy")(uri "${KIPRJMOD}/lib/CH595/kicad_lceda.lib")(options "")(descr ""))
 )

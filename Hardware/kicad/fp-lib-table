@@ -1,3 +1,7 @@
 (fp_lib_table
-  (lib (name "kicad_lceda")(type "KiCad")(uri "${KIPRJMOD}/lib/esp8266/kicad_lceda.pretty")(options "")(descr ""))
+  (lib (name "esp8266")(type "KiCad")(uri "${KIPRJMOD}/lib/esp8266/kicad_lceda.pretty")(options "")(descr ""))
+  (lib (name "TC4056A")(type "KiCad")(uri "${KIPRJMOD}/lib/TC4056A/kicad_lceda.pretty")(options "")(descr ""))
+  (lib (name "e01")(type "KiCad")(uri "${KIPRJMOD}/lib/e01/kicad_lceda.pretty")(options "")(descr ""))
+  (lib (name "e07")(type "KiCad")(uri "${KIPRJMOD}/lib/e07/kicad_lceda.pretty")(options "")(descr ""))
+  (lib (name "SL2.1")(type "KiCad")(uri "${KIPRJMOD}/lib/SL2.1S/kicad_lceda.pretty")(options "")(descr ""))
 )
