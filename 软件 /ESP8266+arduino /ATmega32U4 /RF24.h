@@ -100,7 +100,7 @@ public:
 
   /**
    * Arduino Constructor
-   *
+   *b
    * Creates a new instance of this driver.  Before using, you create an instance
    * and send in the unique pins that this chip is connected to.
    *
